@@ -1,0 +1,75 @@
+Chapter 1
+Introduction
+
+- There remains a vast universe of use cases for which a relational database
+  is still beyond any reasonable doubt the way to go.
+
+It stats with a question
+
+  The central question of Seven Databases in Seven Weeks is this: what database
+  or combination of databases best resolves your problem?
+
+- What type of database is this? Databases come in a variety of fenres, such as
+  relational, key-value, colimnar, document-oriented, and graph. Popular 
+  databases--including those covered in this book--can generally be grouped
+  into one of these broad categories. You'll learn about each type and the 
+  kinds of problems for which they're best suited.
+
+- What was the driving force?
+  We'll cover use cases for each database, along with related examples.
+
+- What makes it unique?
+  Understanding capabilities and constraints will help you pick the right
+  database for the job.
+
+The Genres
+
+  Like music, databases can be broadly classified into one or more styles. An
+  individial song may share all of the same notes with other songs, but some
+  are more appropriate for certain uses. Not many people blast Bach's Mass
+  in B Minor from an open convertible speeding down the 405. Similarly, some
+  databases are better than others for certain situations. The question you
+  must always ask yourself is not "Can I use this database to store and 
+  refine this data?" but rather, "Should I?"
+
+  The question is less about whether a given database style could be shoehorned
+  to model your data and more about whether it's the best fit for your problem
+  space, your usage patterns, and your available resources.
+
+Relational
+
+  Relational database management systems (RDBMSs) are set-theory-based
+  systems implemented as two-dimensional tables with rows and columns. The
+  canonical means of interacting with an RDBMS is to write queries in 
+  Structured Query Language (SQL). 
+
+  Importantly, tables can join and morph into new, more complex tables 
+  becouse of their mathematical basis in relational (set) theory.
+
+Key-Value
+
+  The key-value (KV) store is the simplest model we cover. As the name implies,
+  a KV store pairs keys to values in much the same way that a map (or
+  hashtable) whould in any popular programming language.
+
+Columnar
+
+  Columnar, or colimn-oriented, databases are so named because the important
+  aspect of their design is that data from a given column (in the 
+  two-dimensional table sense) is stored together. By contrast, a row-oriented
+  database (like an RDBMS) keeps information about a row together.
+
+Document
+
+  Document-oriented databases store, well, documents. In short, a document is
+  like a hash, with a unique ID field and values that may be any of a variety
+  of types, including more hashes.
+
+Graph
+
+  One of the less commonly used database styles, graph databases excel at 
+  dealing with highly interconnected data. A graph database consists of nodes
+  and relationships between nodes. Both nodes and relationships can have
+  properties--key-value pairs-- that store data. The real strencth of graph
+  databases is traversing through the nodes by following relationships.
+
